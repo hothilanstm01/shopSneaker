@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L -Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</head>
+<body>
+    <input type="checkbox" id="checkbox">
+    <header class="header">
+        <h2 class="u-name">L - SHOP
+            <label for="checkbox">
+                <i id="navbtn" class="fa fa-bars" aria-hidden="true"></i>
+            </label>
+        </h2>
+        
+        <i class="fa fa-user" aria-hidden="true"></i>
+    </header>
+    <div class="body">
+        <nav class="slide-bar">
+            <div class="user-p">
+                <img src="img/user.jpeg" alt="">
+                <h4>Lan</h4>
+            </div>
+           <ul>
+               <li>
+                   <a href="index.html">
+                    <i class="fa fa-desktop" aria-hidden="true"></i>
+                       <span>Dashboard</span>
+                   </a>
+               </li>
+               <li>
+                <a href="cart.html">
+                 <i class="fa fa-comments-o" aria-hidden="true"></i>
+                    <span>Cart</span>
+                </a>
+            </li>
+               <li>
+                <a href="catalog.html">
+                 <i class="fa fa-cogs" aria-hidden="true"></i>
+                    <span>Catalogs</span>
+                </a>
+                </li>
+                <li>
+                    <a href="product.html">
+                     <i class="fa fa-folder-o" aria-hidden="true"></i>
+                        <span>Products</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                     <i class="fa fa-power-off" aria-hidden="true"></i>
+                        <span>Logout</span>
+                    </a>
+                </li>
+           </ul>
+        </nav>
+        <section class="section-1">
+            <div class="boxcart">
+                <canvas id="myChart"></canvas>
+                
+            <script src="../js/admin.js"> 
+                 
+            </script>
+            </div>
+            
+            <!-- <h1>WELCOME</h1>
+            <p>#Sneaker</p> -->
+        </section>
+    </div>
+</body>
+</html>

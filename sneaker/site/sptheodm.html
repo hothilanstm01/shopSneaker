@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>L- Shop </title>
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- bootstrap link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" >
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- link icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!-- header -->
+  <section>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up"></i></button>
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+  <section>
+      <nav>
+        <div class="container">
+          <div class="head">
+            <div class="call"><span style="margin-right: 4px;"><i class="fa fa-phone"></i></span> Hotline:0854686949</div>
+            <div class="join">
+              <a href="cart.html"><span style="margin-right: 8px;" class="glyphicon glyphicon-shopping-cart"></span>Giỏ hàng</a>
+              <a href="login.html"><span style="margin-right: 8px;" class="glyphicon glyphicon-log-in"></span>Đăng nhập</a>
+              <a href="dangky.html"><span style="margin-right: 4px;"><i class="fa fa-key"></i></span> Đăng ký</a>            
+            </div>
+           
+            
+          </div>
+          <!-- end head -->
+          <div class="banner">
+            <div class="logo-nav">
+              <a href="index.html"><img src="images/loogo.png" alt=""></a>
+            </div>
+            <div class="search">
+              <form>
+                <input type="text" name="search" placeholder="Tìm kiếm sản phẩm..." />
+                <button  type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+              </form>
+            </div>
+            <div class="cart">
+              <a href="cart.html">
+                <img src="images/c-removebg-preview.png" alt="">
+                <!-- <span style="margin-right: 6px;">0 sp - 0đ</span> -->
+                <!-- <i class="fa fa-arrow-right"></i> -->
+              </a>
+            </div>
+          </div> 
+          <!-- end banner -->
+          
+        </div>
+      </nav>
+    
+  </section>
+  <!-- End -->
+
+  <section>
+    <div class="container">
+      <div class="tem-menu">
+        <div class="tem-danhmuc hov">         
+          <div class="menu-cate menu-quick-select">
+            <div class="menu-cate-title">
+              <span class="dmsp">
+                <i class="fa fa-th-list"></i>
+                <a href="#">DANH MỤC SẢN PHẨM</a>
+                <i class="fa fa-chevron-circle-down"></i>
+              </span>
+            </div>
+            <ul class="menu-content hove" id="target">
+                <!-- <li>
+                    <a href="#">
+                      GIÀY NAM               
+                    </a>               
+                  </li>
+                  <li>
+                    <a href="#">
+                      GIÀY NỮ             
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      GIÀY TRẺ EM               
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      GIÀY THỂ THAO                
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      GIÀY CHÍNH HÃNG               
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      GIÀY MỚI             
+                    </a>
+                  </li> -->
+            </ul>
+          </div>
+<!-- danhmuc -->
+          
+
+        </div>
+        
+        <div class="tem-list">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">TRANG CHỦ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gioithieu.html">GIỚI THIỆU</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="listshop.html">SẢN PHẨM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tintuc.html">TIN TỨC</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lienhe.html">LIÊN HỆ</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <section>
+    <div class="container">
+      <div class="product mt-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-md">
+           <h4 style="padding: 0px 10px;">SẢN PHẨM</h4>
+          </div>
+        </nav>
+      <div class="products">
+        <div class="bigbox" id="sptheodm">
+          <!-- <div class="box">
+            <img src="images/1.jpg" alt="">
+            <div class="name">
+              <a href="">Giày seaker</a>
+            </div>
+            <div class="price">
+              <span style="color: red;font-weight: bold;font-size:15px;">700.000đ</span>
+              <span style="text-decoration: line-through;color: #999;font-weight: bold">900.000đ</span>
+            </div>
+            <div class="mua">
+              <button><a href="#">Mua Ngay</a></button>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/2.jpg" alt="">
+            <div class="name">
+              <a href="">Giày seaker</a>
+            </div>
+            <div class="price">
+              <span style="color: red;font-weight: bold;font-size:15px;">700.000đ</span>
+              <span style="text-decoration: line-through;color: #999;font-weight: bold">900.000đ</span>
+            </div>
+            <div class="mua">
+              <button><a href="#">Mua Ngay</a></button>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/3.jpg" alt="">
+            <div class="name">
+              <a href="">Giày seaker</a>
+            </div>
+            <div class="price">
+              <span style="color: red;font-weight: bold;font-size:15px;">700.000đ</span>
+              <span style="text-decoration: line-through;color: #999;font-weight: bold">900.000đ</span>
+            </div>
+            <div class="mua">
+              <button><a href="#">Mua Ngay</a></button>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/4.jpg" alt="">
+            <div class="name">
+              <a href="">Giày seaker</a>
+            </div>
+            <div class="price">
+              <span style="color: red;font-weight: bold;font-size:15px;">700.000đ</span>
+              <span style="text-decoration: line-through;color: #999;font-weight: bold">900.000đ</span>
+            </div>
+            <div class="mua">
+              <button><a href="#">Mua Ngay</a></button>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/5.png" alt="">
+            <div class="name">
+              <a href="">Giày seaker</a>
+            </div>
+            <div class="price">
+              <span style="color: red;font-weight: bold;font-size:15px;">700.000đ</span>
+              <span style="text-decoration: line-through;color: #999;font-weight: bold">900.000đ</span>
+            </div>
+            <div class="mua">
+              <button><a href="#">Mua Ngay</a></button>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/6.jpg" alt="">
+            <div class="name">
+              <a href="">Giày seaker</a>
+            </div>
+            <div class="price">
+              <span style="color: red;font-weight: bold;font-size:15px;">700.000đ</span>
+              <span style="text-decoration: line-through;color: #999;font-weight: bold">900.000đ</span>
+            </div>
+            <div class="mua">
+              <button><a href="#">Mua Ngay</a></button>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/7.jpg" alt="">
+            <div class="name">
+              <a href="">Giày seaker</a>
+            </div>
+            <div class="price">
+              <span style="color: red;font-weight: bold;font-size:15px;">700.000đ</span>
+              <span style="text-decoration: line-through;color: #999;font-weight: bold">900.000đ</span>
+            </div>
+            <div class="mua">
+              <button><a href="#">Mua Ngay</a></button>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/8.jpg" alt="">
+            <div class="name">
+              <a href="">Giày seaker</a>
+            </div>
+            <div class="price">
+              <span style="color: red;font-weight: bold;font-size:15px;">700.000đ</span>
+              <span style="text-decoration: line-through;color: #999;font-weight: bold">900.000đ</span>
+            </div>
+            <div class="mua">
+              <button><a href="#">Mua Ngay</a></button>
+            </div>
+          </div> -->
+        </div>
+      </div>  
+      </div>
+    </div>
+  </section> 
+  <!-- Sản phẩm hot end-->
+  
+  <section>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light mt-3">
+        <div class="container-md">
+         <h4 style="padding: 0px 10px;">ĐỐI TÁC</h4>
+        </div>
+      </nav>
+      <div class="doitac">
+        <img src="images/Lazada_(2019).svg" alt="">
+        <img src="images/shopee-logo-1.jpg" alt="">
+        <img src="images/1571133630-logo-tiki.png" alt="">
+        <img src="images/1534433429349-1533098670230-Thiết kế không tên (85).png" alt="">
+        <img src="images/chotot-logo.png" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- đối tac end -->
+  <footer>
+    <div class="container">
+      <div class="thongtin mt-3">
+        <div class="gioithieu">
+          <p style="font-size:15pt;">GIỚI THIỆU</p>
+          <hr>
+          <ul>
+            <li><a href="">Về chúng tôi</a></li>
+            <li><a href="">Tổng quan về công ty</a></li>
+            <li><a href="">Chương trình khuyến mãi</a></li>
+            <li><a href="">Cẩm nang mua sắm</a></li>
+          </ul>
+        </div>
+        <div class="gioithieu">
+          <p style="font-size:15pt;">LIÊN HỆ - HỢP TÁC</p>
+          <hr>
+          <ul>
+            <li><a href="">Dành cho doanh nghiệp</a></li>
+            <li><a href="">Liên hệ</a></li>
+            <li><a href="">Chương trình khuyến mãi</a></li>
+            <li><a href="">Tuyển dụng</a></li>
+          </ul>
+        </div>
+        <div class="gioithieu">
+          <p style="font-size:15pt;">THÔNG TIN CÔNG TY</p>
+          <hr>
+          <p style="font-weight: bold;font-size: 12pt;">
+            Nội Thất Vũng Tàu            
+          </p>
+          <div style="margin-bottom: 10px;" class="dc">
+            <span style="margin-right: 5px;"><i class="fa fa-map-marker"></i></span> <span>400 Nguyễn Hữu Cảnh Phường 10, Tp. Vũng Tàu</span>
+          </div>
+          <div style="margin-bottom: 10px;" class="dc">
+            <span style="margin-right: 5px;"><i class="fa fa-envelope"></i></span><span>noithatvungtau9999@gmail.com</span>
+          </div>
+          <div class="dc">
+            <span style="margin-right: 5px;"><i class="fa fa-phone"></i></span><span> 0922.335.345 or 0961 260 832</span>
+          </div>
+        </div>
+        <div class="gioithieu">
+          <p style="font-size:15pt;">FACEBOOK</p>
+          <hr>
+          <div class="f">
+            <a href=""><i class="fa fa-facebook-f"></i></a>
+          </div>
+          <div class="f">
+            <a href=""><i class="fa fa-google-plus"></i></a>
+          </div>
+          <div class="f">
+            <a href=""><i class="fa fa-youtube"></i></a>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </footer>
+  <script src="../js/sptheodm.js"></script>
+</body>
+</html>

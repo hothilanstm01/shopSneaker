@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="css/catalog.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+  <input type="checkbox" id="checkbox">
+  <header class="header">
+      <h2 class="u-name">L - SHOP
+          <label for="checkbox">
+              <i id="navbtn" class="fa fa-bars" aria-hidden="true"></i>
+          </label>
+      </h2>
+      <i class="fa fa-user" aria-hidden="true"></i>
+  </header>
+  <div class="body">
+      <nav class="slide-bar">
+          <div class="user-p">
+              <img src="img/user.jpeg" alt="">
+              <h4>Lan</h4>
+          </div>
+         <ul>
+             <li>
+                 <a href="index.html">
+                  <i class="fa fa-desktop" aria-hidden="true"></i>
+                     <span>Dashboard</span>
+                 </a>
+             </li>
+             <li>
+              <a href="cart.html">
+               <i class="fa fa-comments-o" aria-hidden="true"></i>
+                  <span>Cart</span>
+              </a>
+          </li>
+             <li>
+              <a href="catalog.html">
+               <i class="fa fa-cogs" aria-hidden="true"></i>
+                  <span>Catalogs</span>
+              </a>
+              </li>
+              <li>
+                  <a href="product.html">
+                   <i class="fa fa-folder-o" aria-hidden="true"></i>
+                      <span>Products</span>
+                  </a>
+              </li>
+              <li>
+                  <a href="#">
+                   <i class="fa fa-power-off" aria-hidden="true"></i>
+                      <span>Logout</span>
+                  </a>
+              </li>
+         </ul>
+      </nav>
+      <section class="section-1">
+        <div class="container mt-5">
+            <h1 class="title">Danh Sach San Pham</h1>
+            
+         <table class="table">
+             <thead>
+               <tr class="table-dark">
+ 
+                 <th scope="col">ID</th>
+                 <th scope="col">Name</th>
+                 <th scope="col">Mota</th>
+                 <th scope="col">Giá</th>
+                 <th scope="col">Hình </th>
+                 <th scope="col">XOA</th>
+                 <th scope="col">SUA</th>
+               </tr>
+             </thead>
+             <tbody id="result">
+               <!-- <tr class="table-danger">
+ 
+                 <td>1</td>
+                 <td>Lily</td>
+                 <td>Con mèo</td>
+                 <td><a href="#">Xoa</a></td>
+                 <td><a href="#">Sua</a></td>
+               </tr>
+               <tr class="table-dark">
+ 
+                 <td>2</td>
+                 <td>Louis</td>
+                 <td>Con mèo</td>
+                 <td><a href="#">Xoa</a></td>
+                 <td><a href="#">Sua</a></td>
+               </tr>
+               <tr class="table-danger"> 
+                 <td>3</td>
+                 <td>Luca</td>
+                 <td>Con mèo</td>
+                 <td><a href="#">Xoa</a></td>
+                 <td><a href="#">Sua</a></td>
+               </tr>
+               <tr class="table-dark">
+ 
+                 <td>4</td>
+                 <td>Leo</td>
+                 <td>Con mèo</td>
+                 <td><a href="#">Xoa</a></td>
+                 <td><a href="#">Sua</a></td>
+               </tr>
+               <tr class="table-danger"> 
+                 <td>5</td>
+                 <td>Lego</td>
+                 <td>Con mèo</td>
+                 <td><a href="#">Xoa</a></td>
+                 <td><a href="#">Sua</a></td>
+               </tr> -->
+             </tbody>
+           </table>
+           <!-- <div class="d-inline-flex p-2 bd-highlight"><a href="addpro.html" class="btn btn-dark mb-3">Add New</a></div>  -->
+           <button type="button" class="btn btn-dark px-4  py-2 text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Add New
+          </button>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <h3 class="text-center"style="color: #fff">THÊM SẢN PHẨM</h3>
+                    <div class="form-group">
+                        <label class="" for="tensp" style="color: #fff">Tên sản phẩm</label>
+                        <input class="form-control" name="name" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label class="" for="giasp" style="color: #fff">Giá sản phẩm</label>
+                        <input class="form-control" name="gia" id="price">
+                    </div>
+                    <div class="form-group">
+                        <label class="" for="giasp" style="color: #fff">Giá sale</label>
+                        <input class="form-control" name="gia_sale" id="price_sale">
+                    </div>
+                    <div class="form-group">
+                        <label class="" for="motasp" style="color: #fff">Mô tả</label>
+                        <textarea rows="5" class="form-control" name="description" id="description"> </textarea>
+                    </div>
+                    <div class="form-group">
+                        <label class="" for="hinhsp" style="color: #fff">Hình sản phẩm</label>
+                        <textarea rows="5" class="form-control" name="hinh" id="img" placeholder="link hình lên gu gồ kiếm :))"> </textarea>
+                    </div>
+                    <label for="idCat">Lớp học</label>
+                    <select name="idCat" id="idCat">
+                        <option value=""></option>
+                    </select> <br>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="sphot" value=1>
+                        <label class="form-check-label" for="sphot">SP hot</label>
+                      </div>
+                    <div class="form-group mt-3">
+                        <input type="hidden" class="form-control"  name="id" id="id" value="0">       
+                        <!-- <button type="button" class="btn btn-primary py-2 px-4"  onclick="submitForm()">Submit</button> -->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-dark px-4  py-2 text-white"  onclick="submitForm()"> SAVE DATABASE </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+     </section>
+  </div>
+   <script src="../js/ad.js" ></script>
+</body>
+</html>

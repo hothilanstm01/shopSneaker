@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>L - Shop </title>
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/cart.css">
+  <!-- bootstrap link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" >
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- link icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!-- header -->
+  <section>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up"></i></button>
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+      <nav>
+        <div class="container">
+          <div class="head">
+            <div class="call"><span style="margin-right: 4px;"><i class="fa fa-phone"></i></span> Hotline:0854686949</div>
+            <div class="join">
+              <a href="cart.html"><span style="margin-right: 8px;" class="glyphicon glyphicon-shopping-cart"></span>Giỏ hàng</a>
+              <a href="login.html"><span style="margin-right: 8px;" class="glyphicon glyphicon-log-in"></span>Đăng nhập</a>
+              <a href="dangky.html"><span style="margin-right: 4px;"><i class="fa fa-key"></i></span> Đăng ký</a>            
+            </div>
+           
+            
+          </div>
+          <!-- end head -->
+          <div class="banner">
+            <div class="logo-nav">
+              <a href="index.html"><img src="images/loogo.png" alt=""></a>
+            </div>
+            <div class="search">
+              <form>
+                <input type="text" name="search" placeholder="Tìm kiếm sản phẩm..." />
+                <button  type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+              </form>
+            </div>
+            <div class="cart">
+              <a href="cart.html">
+                <img src="images/c-removebg-preview.png" alt="">
+                <!-- <span style="margin-right: 6px;">0 sp - 0đ</span> -->
+                <!-- <i class="fa fa-arrow-right"></i> -->
+              </a>
+            </div>
+          </div> 
+          <!-- end banner -->
+          
+        </div>
+      </nav>
+    
+  </section>
+  <!-- End -->
+
+  <section>
+    <div class="container">
+      <div class="tem-menu">
+        <div class="tem-danhmuc hov">         
+          <div class="menu-cate menu-quick-select">
+            <div class="menu-cate-title">
+              <span class="dmsp">
+                <i class="fa fa-th-list"></i>
+                <a href="#">DANH MỤC SẢN PHẨM</a>
+                <i class="fa fa-chevron-circle-down"></i>
+              </span>
+            </div>
+            <ul class="menu-content hove" id="target">
+              <!-- <li>
+                <a href="#">
+                  GIÀY NAM               
+                </a>               
+              </li>
+              <li>
+                <a href="#">
+                  GIÀY NỮ             
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  GIÀY TRẺ EM               
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  GIÀY THỂ THAO                
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  GIÀY CHÍNH HÃNG               
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  GIÀY MỚI             
+                </a>
+              </li> -->
+              
+            </ul>
+          </div>
+<!-- danhmuc -->
+          
+
+        </div>
+        
+        <div class="tem-list">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">TRANG CHỦ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gioithieu.html">GIỚI THIỆU</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="listshop.html">SẢN PHẨM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tintuc.html">TIN TỨC</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lienhe.html">LIÊN HỆ</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End -->
+ <section>
+  <div class="container">
+    <div class="slide-show">
+      <div class="cart-list mt-4">
+        <div >
+            <h2 class="mb-5 text-center">Shopping Cart</h2>
+            <div class="row justify-content-center">
+                <div>
+                    <div class="table-responsive">
+                        <table id="myTable" class="table">
+                            <thead>
+                                <tr>
+                                    <th>Product</th>
+                                    <th>Name</th>
+                                    <th>So Luong</th>
+                                    <th>Price</th>
+                                    
+                                    <th>
+                                        <span id="amount" class="amount">Amount</span>
+                                    </th>
+                                    <th>Setting</th>
+                                </tr>
+                            </thead>
+                            <tbody id="cart-body">
+<!--                               <tr>
+                                  <td>
+                                      <div class="product-img">
+                                          <div class="img-prdct">
+                                              <img src="images/3.jpg" alt="">
+                                          </div>
+                                      </div>
+                                  </td>
+                                  <td>
+                                      <p>San Pham 1</p>
+                                  </td>
+                                  <td>
+                                      <div class="button-container">
+                                          <button class="cart-qty-plus" type="button" value="+">+</button>
+                                          <input type="text" name="qty" min="0" class="qty form-control" value="0">
+                                          <button class="cart-qty-minus" type="button" value="-">-</button>
+                                      </div>
+                                  </td>
+                                  <td>
+                                      <input type="text" value="72" class="price form control" disabled>
+                                  </td>
+                                  <td>$
+                                      <span id="amount" class="amount">0</span>
+                                  </td>
+                                  <td >
+                                    <button class="remove">Remove</button>
+                                </td>
+                              </tr>
+ -->                                
+                            </tbody>
+                            <tfoot class="cart__footer">
+                                <!-- <tr>
+                                    <td colspan="5"></td>
+                                    <td align="right">
+                                        <strong class="cart__total">TOTAL = $ 
+                                           
+                                        </strong>
+                                    </td>
+                                </tr> -->
+                                <tr>
+                                  <td colspan="5"></td>
+                                  <td align="right">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Mua Ngay</button>
+                                    <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" >
+                                      <div class="modal-dialog">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                          </div>
+                                          <div class="modal-body" style="width: 350px">
+                                            <form style="width: 100%">
+                                              <div class="mb-3">
+                                                <label for="recipient-name" class="col-form-label">Họ & tên:</label>
+                                                <input type="text" class="form-control" id="recipient-name">
+                                              </div>
+                                              <div class="mb-3">
+                                                <label for="message-text" class="col-form-label">Số điện thoại:</label>
+                                                <input type="text" class="form-control" id="recipient-sdt">
+                                                <span id="er"></span>
+                                              </div>
+                                              <div class="mb-3">
+                                                <label for="message-text" class="col-form-label">Địa chỉ:</label>
+                                                <input type="text" class="form-control" id="recipient-diachi">
+                                                <!-- <textarea class="form-control" id="message-text" id="recipient-dchi"></textarea> -->
+                                              </div>
+                                            </form>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary" onclick="submitCart()">Send</button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <script>
+                                      var exampleModal = document.getElementById('exampleModal')
+                                      exampleModal.addEventListener('show.bs.modal', function (event) {
+                                        // Button that triggered the modal
+                                        var button = event.relatedTarget
+                                        // Extract info from data-bs-* attributes
+                                        var recipient = button.getAttribute('data-bs-whatever')
+                                        // If necessary, you could initiate an AJAX request here
+                                        // and then do the updating in a callback.
+                                        //
+                                        // Update the modal's content.
+                                        var modalTitle = exampleModal.querySelector('.modal-title')
+                                        var modalBodyInput = exampleModal.querySelector('.modal-body input')
+
+                                        modalTitle.textContent = 'Thông tin '
+                                        modalBodyInput.value = recipient
+                                      })
+                                    </script>
+                                  </td>
+                              </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+ </section>
+ <!-- giới thieu -->
+  
+  <section>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light mt-3">
+        <div class="container-md">
+         <h4 style="padding: 0px 10px;">ĐỐI TÁC</h4>
+        </div>
+      </nav>
+      <div class="doitac">
+        <img src="images/doitac1.jpg" alt="">
+        <img src="images/doitac2.jpg" alt="">
+        <img src="images/doitac3.jpg" alt="">
+        <img src="images/doitac4.png" alt="">
+        <img src="images/doitac5.jpg" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- đối tac end -->
+  <footer>
+    <div class="container">
+      <div class="thongtin mt-3">
+        <div class="gioithieu">
+          <p style="font-size:15pt;">GIỚI THIỆU</p>
+          <hr>
+          <ul>
+            <li><a href="">Về chúng tôi</a></li>
+            <li><a href="">Tổng quan về công ty</a></li>
+            <li><a href="">Chương trình khuyến mãi</a></li>
+            <li><a href="">Cẩm nang mua sắm</a></li>
+          </ul>
+        </div>
+        <div class="gioithieu">
+          <p style="font-size:15pt;">LIÊN HỆ - HỢP TÁC</p>
+          <hr>
+          <ul>
+            <li><a href="">Dành cho doanh nghiệp</a></li>
+            <li><a href="">Liên hệ</a></li>
+            <li><a href="">Chương trình khuyến mãi</a></li>
+            <li><a href="">Tuyển dụng</a></li>
+          </ul>
+        </div>
+        <div class="gioithieu">
+          <p style="font-size:15pt;">THÔNG TIN CÔNG TY</p>
+          <hr>
+          <p style="font-weight: bold;font-size: 12pt;">
+            L - Shop            
+          </p>
+          <div style="margin-bottom: 10px;" class="dc">
+            <span style="margin-right: 5px;"><i class="fa fa-map-marker"></i></span> <span>400 Nguyễn Hữu Cảnh Phường 10, Tp. Vũng Tàu</span>
+          </div>
+          <div style="margin-bottom: 10px;" class="dc">
+            <span style="margin-right: 5px;"><i class="fa fa-envelope"></i></span><span>noithatvungtau9999@gmail.com</span>
+          </div>
+          <div class="dc">
+            <span style="margin-right: 5px;"><i class="fa fa-phone"></i></span><span> 0922.335.345 or 0961 260 832</span>
+          </div>
+        </div>
+        <div class="gioithieu">
+          <p style="font-size:15pt;">FACEBOOK</p>
+          <hr>
+          <div class="f">
+            <a href=""><i class="fa fa-facebook-f"></i></a>
+          </div>
+          <div class="f">
+            <a href=""><i class="fa fa-google-plus"></i></a>
+          </div>
+          <div class="f">
+            <a href=""><i class="fa fa-youtube"></i></a>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </footer>
+    
+  <script src="../js/cart.js"></script>
+
+  <!-- <script src="../js/cart.js"></script> -->
+</body>
+</html>

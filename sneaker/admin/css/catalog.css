@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial,sans-serif;
+}
+.table{
+    color: #fff;
+}
+.table tr{
+    color: #fff;
+}
+.table button{
+    border:0;
+    background-color: #666;
+    width:50px;height:50px;
+    color: white;
+}
+.container .title{
+    color: black;
+
+}
+.container .title:hover{
+    color:white;
+}
+section .giua{
+    width:100%;
+    margin-left: 250px;
+}

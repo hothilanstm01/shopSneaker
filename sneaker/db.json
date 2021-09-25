@@ -1,0 +1,476 @@
+{
+  "catalogs": [
+    {
+      "name": "GIÀY NAM ",
+      "id": 1
+    },
+    {
+      "name": "GIÀY NỮ ",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "GIÀY TRẺ EM"
+    },
+    {
+      "id": 4,
+      "name": "GIÀY THỂ THAO"
+    },
+    {
+      "name": "GIÀY CHÍNH HÃNGhihi",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "id": 2,
+      "name": "Giày Adidas Alphabounce Trắng Đế Đen",
+      "price": 245000,
+      "price_sale": 221000,
+      "hot": 1,
+      "short": "Made In Campodia",
+      "description": "-- Bluesneaker cập nhật liên tục các sản phẩm cực đẹp , phù hợp vs xu hướng thời trang <br> -- Tên sp: Giày Adidas Alphabounce Trắng Đế Đen (fullbox + freeship) <br> -- Đầy đủ tất cả các mẫu mã trên thị trường sneaker  <br> -- Size: 36-44 <br> -- Giá Sale cực hấp dẫn <br> -- Fullbox, tag, giấy gói, FREESHIP, BẢO HÀNH 6 tháng <br> -- Theo Dõi shop để ko bỏ lỡ cơ hội nhận mã giảm giá và mua các sản phẩm cực TREND nhé",
+      "img": "https://pilireplica.com/wp-content/uploads/2018/06/adidas-stan-smith-xanh-replica.jpg",
+      "idCata": 1
+    },
+    {
+      "id": 3,
+      "name": "Giày Sneaker Nam Nữ Max Trắng Xanh",
+      "price": 439000,
+      "price_sale": 399000,
+      "hot": 1,
+      "short": "Made In China",
+      "description": "-- Bluesneaker cập nhật liên tục các sản phẩm cực đẹp , phù hợp vs xu hướng thời trang <br> -- Tên sp: Giày Adidas Alphabounce Trắng Đế Đen (fullbox + freeship) <br> -- Đầy đủ tất cả các mẫu mã trên thị trường sneaker  <br> -- Size: 36-44 <br> -- Giá Sale cực hấp dẫn <br> -- Fullbox, tag, giấy gói, FREESHIP, BẢO HÀNH 6 tháng <br> -- Theo Dõi shop để ko bỏ lỡ cơ hội nhận mã giảm giá và mua các sản phẩm cực TREND nhé",
+      "img": "https://product.hstatic.net/1000367250/product/fx8835-4_8182ae7ea74f4b05bab8f88fc00c115a_master.jpg",
+      "idCata": 2
+    },
+    {
+      "id": 4,
+      "name": "Giày của Lisa",
+      "price": 600000,
+      "price_sale": 599000,
+      "hot": 1,
+      "short": "Made In VietNam",
+      "description": "-- Bluesneaker cập nhật liên tục các sản phẩm cực đẹp , phù hợp vs xu hướng thời trang <br> -- Tên sp: Giày Adidas Alphabounce Trắng Đế Đen (fullbox + freeship) <br> -- Đầy đủ tất cả các mẫu mã trên thị trường sneaker  <br> -- Size: 36-44 <br> -- Giá Sale cực hấp dẫn <br> -- Fullbox, tag, giấy gói, FREESHIP, BẢO HÀNH 6 tháng <br> -- Theo Dõi shop để ko bỏ lỡ cơ hội nhận mã giảm giá và mua các sản phẩm cực TREND nhé",
+      "img": "https://assets.adidas.com/images/w_600,f_auto,q_auto/a00e176273414e2d986babc90099fa3e_9366/Giay_ZX_2K_Boost_trang_FV9996_01_standard.jpg",
+      "idCata": 2
+    },
+    {
+      "id": 5,
+      "name": "Giày adidas RUNNING Runfalcon",
+      "price": 265000,
+      "price_sale": 231000,
+      "hot": 1,
+      "short": "Made In VietNam",
+      "description": "-- Bluesneaker cập nhật liên tục các sản phẩm cực đẹp , phù hợp vs xu hướng thời trang <br> -- Tên sp: Giày Adidas Alphabounce Trắng Đế Đen (fullbox + freeship) <br> -- Đầy đủ tất cả các mẫu mã trên thị trường sneaker  <br> -- Size: 36-44 <br> -- Giá Sale cực hấp dẫn <br> -- Fullbox, tag, giấy gói, FREESHIP, BẢO HÀNH 6 tháng <br> -- Theo Dõi shop để ko bỏ lỡ cơ hội nhận mã giảm giá và mua các sản phẩm cực TREND nhé",
+      "img": "https://assets.adidas.com/images/w_600,f_auto,q_auto/9719219a09e94ad29426abe400e80996_9366/Giay_ZX_2K_Boost_trang_FY1942_01_standard.jpg",
+      "idCata": 3
+    },
+    {
+      "id": 6,
+      "name": "Giày adidas ORIGINALS SC Premiere ",
+      "price": 999000,
+      "price_sale": 865000,
+      "hot": 1,
+      "short": "Made In VietNam",
+      "description": "-- Bluesneaker cập nhật liên tục các sản phẩm cực đẹp , phù hợp vs xu hướng thời trang <br> -- Tên sp: Giày Adidas Alphabounce Trắng Đế Đen (fullbox + freeship) <br> -- Đầy đủ tất cả các mẫu mã trên thị trường sneaker  <br> -- Size: 36-44 <br> -- Giá Sale cực hấp dẫn <br> -- Fullbox, tag, giấy gói, FREESHIP, BẢO HÀNH 6 tháng <br> -- Theo Dõi shop để ko bỏ lỡ cơ hội nhận mã giảm giá và mua các sản phẩm cực TREND nhé",
+      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy/2efa0dbe1fda4ffd990bab270115ee90_9366/Giay_adidas_Hypersleek_trang_FV4084_01_standard.jpg",
+      "idCata": 3
+    },
+    {
+      "id": 7,
+      "name": "Giày adidas SKATEBOARDING Bravada",
+      "price": 200000,
+      "price_sale": 120000,
+      "hot": 0,
+      "short": "Made In VietNam",
+      "description": "-- Bluesneaker cập nhật liên tục các sản phẩm cực đẹp , phù hợp vs xu hướng thời trang <br> -- Tên sp: Giày Adidas Alphabounce Trắng Đế Đen (fullbox + freeship) <br> -- Đầy đủ tất cả các mẫu mã trên thị trường sneaker  <br> -- Size: 36-44 <br> -- Giá Sale cực hấp dẫn <br> -- Fullbox, tag, giấy gói, FREESHIP, BẢO HÀNH 6 tháng <br> -- Theo Dõi shop để ko bỏ lỡ cơ hội nhận mã giảm giá và mua các sản phẩm cực TREND nhé",
+      "img": "https://swagger.com.vn/wp-content/uploads/2020/03/adidas-yeezy-700-og-wave-runner.jpg",
+      "idCata": 4
+    },
+    {
+      "id": 8,
+      "name": "Giày adidas SKATEBOARDING Bravada",
+      "price": 212000,
+      "price_sale": 125000,
+      "hot": 0,
+      "short": "Made In VietNam",
+      "description": "-- Bluesneaker cập nhật liên tục các sản phẩm cực đẹp , phù hợp vs xu hướng thời trang <br> -- Tên sp: Giày Adidas Alphabounce Trắng Đế Đen (fullbox + freeship) <br> -- Đầy đủ tất cả các mẫu mã trên thị trường sneaker  <br> -- Size: 36-44 <br> -- Giá Sale cực hấp dẫn <br> -- Fullbox, tag, giấy gói, FREESHIP, BẢO HÀNH 6 tháng <br> -- Theo Dõi shop để ko bỏ lỡ cơ hội nhận mã giảm giá và mua các sản phẩm cực TREND nhé",
+      "img": "https://myshoes.vn/image/cache/data/adidas%202019/THANG8/giay-adidas-ultra-boost-20-nu-hong-dat-01-800x800_0.jpg",
+      "idCata": 4
+    },
+    {
+      "id": 9,
+      "name": "Giày của bé",
+      "price": 223000,
+      "price_sale": 128000,
+      "hot": 0,
+      "short": "Made In VietNam",
+      "description": "-- Bluesneaker cập nhật liên tục các sản phẩm cực đẹp , phù hợp vs xu hướng thời trang <br> -- Tên sp: Giày Adidas Alphabounce Trắng Đế Đen (fullbox + freeship) <br> -- Đầy đủ tất cả các mẫu mã trên thị trường sneaker  <br> -- Size: 36-44 <br> -- Giá Sale cực hấp dẫn <br> -- Fullbox, tag, giấy gói, FREESHIP, BẢO HÀNH 6 tháng <br> -- Theo Dõi shop để ko bỏ lỡ cơ hội nhận mã giảm giá và mua các sản phẩm cực TREND nhé",
+      "img": "../site/images/4.jpg",
+      "idCata": 5
+    },
+    {
+      "id": 10,
+      "name": "Giày adidas SKATEBOARDING Bravada",
+      "price": 366000,
+      "price_sale": 250000,
+      "hot": 0,
+      "short": "Made In VietNam",
+      "description": "-- Bluesneaker cập nhật liên tục các sản phẩm cực đẹp , phù hợp vs xu hướng thời trang <br> -- Tên sp: Giày Adidas Alphabounce Trắng Đế Đen (fullbox + freeship) <br> -- Đầy đủ tất cả các mẫu mã trên thị trường sneaker  <br> -- Size: 36-44 <br> -- Giá Sale cực hấp dẫn <br> -- Fullbox, tag, giấy gói, FREESHIP, BẢO HÀNH 6 tháng <br> -- Theo Dõi shop để ko bỏ lỡ cơ hội nhận mã giảm giá và mua các sản phẩm cực TREND nhé",
+      "img": "https://cdn.vuahanghieu.com/unsafe/0x900/left/top/smart/filters:quality(90)/https://admin.vuahanghieu.com/upload/product/2020/07/giay-the-thao-adidas-xplr-black-white-mau-den-5f111bc71874d-17072020103223.jpg",
+      "idCata": 5
+    },
+    {
+      "id": 11,
+      "name": "didas TENNIS Advantage Shoes Unisex",
+      "price": 367000,
+      "price_sale": 278000,
+      "hot": 0,
+      "short": "Made In VietNam",
+      "description": "-- Bluesneaker cập nhật liên tục các sản phẩm cực đẹp , phù hợp vs xu hướng thời trang <br> -- Tên sp: Giày Adidas Alphabounce Trắng Đế Đen (fullbox + freeship) <br> -- Đầy đủ tất cả các mẫu mã trên thị trường sneaker  <br> -- Size: 36-44 <br> -- Giá Sale cực hấp dẫn <br> -- Fullbox, tag, giấy gói, FREESHIP, BẢO HÀNH 6 tháng <br> -- Theo Dõi shop để ko bỏ lỡ cơ hội nhận mã giảm giá và mua các sản phẩm cực TREND nhé",
+      "img": "https://bizweb.dktcdn.net/thumb/large/100/378/584/products/giay-x-plr-s-trang-ef6094-01-standard.jpg",
+      "idCata": 6
+    },
+    {
+      "id": 12,
+      "name": "Giày adidas RUNNING Lite Racer Slip-On Nữ",
+      "price": 400000,
+      "price_sale": 364000,
+      "hot": 0,
+      "short": "Made In VietNam",
+      "description": "-- Bluesneaker cập nhật liên tục các sản phẩm cực đẹp , phù hợp vs xu hướng thời trang <br> -- Tên sp: Giày Adidas Alphabounce Trắng Đế Đen (fullbox + freeship) <br> -- Đầy đủ tất cả các mẫu mã trên thị trường sneaker  <br> -- Size: 36-44 <br> -- Giá Sale cực hấp dẫn <br> -- Fullbox, tag, giấy gói, FREESHIP, BẢO HÀNH 6 tháng <br> -- Theo Dõi shop để ko bỏ lỡ cơ hội nhận mã giảm giá và mua các sản phẩm cực TREND nhé",
+      "img": "https://media3.scdn.vn/img3/2019/12_24/ja1w3B_simg_de2fe0_500x500_maxb.jpg",
+      "idCata": 6
+    },
+    {
+      "id": 13,
+      "name": "Giày adidas ORIGINALS Supercourt Nam Màu trắng FU9738",
+      "price": 789000,
+      "price_sale": 721000,
+      "hot": 0,
+      "short": "Made In VietNam",
+      "description": "-- Bluesneaker cập nhật liên tục các sản phẩm cực đẹp , phù hợp vs xu hướng thời trang <br> -- Tên sp: Giày Adidas Alphabounce Trắng Đế Đen (fullbox + freeship) <br> -- Đầy đủ tất cả các mẫu mã trên thị trường sneaker  <br> -- Size: 36-44 <br> -- Giá Sale cực hấp dẫn <br> -- Fullbox, tag, giấy gói, FREESHIP, BẢO HÀNH 6 tháng <br> -- Theo Dõi shop để ko bỏ lỡ cơ hội nhận mã giảm giá và mua các sản phẩm cực TREND nhé",
+      "img": "https://sneaker-house.com.vn/image/cache/catalog/adidas/CG4112/CG4112_06_standard-720x720.png",
+      "idCata": 1
+    },
+    {
+      "id": 14,
+      "name": "adidas RUNNING Giày Lite Racer 2.0 Nữ FW1971",
+      "price": 2270000,
+      "price_sale": 2120000,
+      "hot": 0,
+      "short": "Made In Korea",
+      "description": "-- Bluesneaker cập nhật liên tục các sản phẩm cực đẹp , phù hợp vs xu hướng thời trang <br> -- Tên sp: Giày Adidas Alphabounce Trắng Đế Đen (fullbox + freeship) <br> -- Đầy đủ tất cả các mẫu mã trên thị trường sneaker  <br> -- Size: 36-44 <br> -- Giá Sale cực hấp dẫn <br> -- Fullbox, tag, giấy gói, FREESHIP, BẢO HÀNH 6 tháng <br> -- Theo Dõi shop để ko bỏ lỡ cơ hội nhận mã giảm giá và mua các sản phẩm cực TREND nhé",
+      "img": "https://quatasy.com/wp-content/uploads/2020/06/Gi%C3%A0y-adidas-VS-Coneo-QT.jpg",
+      "idCata": 2
+    },
+    {
+      "id": 15,
+      "name": "adidas RUNNING Galaxar Nam Màu trắng",
+      "price": 200000,
+      "price_sale": 120000,
+      "hot": 0,
+      "short": "Made In VietNam",
+      "description": "-- Bluesneaker cập nhật liên tục các sản phẩm cực đẹp , phù hợp vs xu hướng thời trang <br> -- Tên sp: Giày Adidas Alphabounce Trắng Đế Đen (fullbox + freeship) <br> -- Đầy đủ tất cả các mẫu mã trên thị trường sneaker  <br> -- Size: 36-44 <br> -- Giá Sale cực hấp dẫn <br> -- Fullbox, tag, giấy gói, FREESHIP, BẢO HÀNH 6 tháng <br> -- Theo Dõi shop để ko bỏ lỡ cơ hội nhận mã giảm giá và mua các sản phẩm cực TREND nhé",
+      "img": "https://s4.shopbay.vn/files/20/giay-adidas-prophere-all-white-db2705-1-5ee727b428c4e.jpg",
+      "idCata": 2
+    },
+    {
+      "id": 16,
+      "name": "adidas TENNIS Advantage Nam Màu trắng",
+      "price": 5200000,
+      "price_sale": 4120000,
+      "hot": 0,
+      "short": "Made In Thailand",
+      "description": "-- Bluesneaker cập nhật liên tục các sản phẩm cực đẹp , phù hợp vs xu hướng thời trang <br> -- Tên sp: Giày Adidas Alphabounce Trắng Đế Đen (fullbox + freeship) <br> -- Đầy đủ tất cả các mẫu mã trên thị trường sneaker  <br> -- Size: 36-44 <br> -- Giá Sale cực hấp dẫn <br> -- Fullbox, tag, giấy gói, FREESHIP, BẢO HÀNH 6 tháng <br> -- Theo Dõi shop để ko bỏ lỡ cơ hội nhận mã giảm giá và mua các sản phẩm cực TREND nhé",
+      "img": "https://pilireplica.com/wp-content/uploads/2018/06/adidas-prophere-xam-replica-1.jpg",
+      "idCata": 2
+    },
+    {
+      "id": 17,
+      "name": "adidas RUNNING Duramo SL ",
+      "price": 1200000,
+      "price_sale": 1120000,
+      "hot": 0,
+      "short": "Made In VietNam",
+      "description": "-- Bluesneaker cập nhật liên tục các sản phẩm cực đẹp , phù hợp vs xu hướng thời trang <br> -- Tên sp: Giày Adidas Alphabounce Trắng Đế Đen (fullbox + freeship) <br> -- Đầy đủ tất cả các mẫu mã trên thị trường sneaker  <br> -- Size: 36-44 <br> -- Giá Sale cực hấp dẫn <br> -- Fullbox, tag, giấy gói, FREESHIP, BẢO HÀNH 6 tháng <br> -- Theo Dõi shop để ko bỏ lỡ cơ hội nhận mã giảm giá và mua các sản phẩm cực TREND nhé",
+      "img": "https://giaygiare.vn/upload/sanpham/large/adidas-prophere-trang-nam-nu.jpg",
+      "idCata": 2
+    },
+    {
+      "id": 18,
+      "name": "Adidas TENNIS Advantage",
+      "price": 4200000,
+      "price_sale": 1220000,
+      "hot": 0,
+      "short": "Made In America",
+      "description": "-- Bluesneaker cập nhật liên tục các sản phẩm cực đẹp , phù hợp vs xu hướng thời trang <br> -- Tên sp: Giày Adidas Alphabounce Trắng Đế Đen (fullbox + freeship) <br> -- Đầy đủ tất cả các mẫu mã trên thị trường sneaker  <br> -- Size: 36-44 <br> -- Giá Sale cực hấp dẫn <br> -- Fullbox, tag, giấy gói, FREESHIP, BẢO HÀNH 6 tháng <br> -- Theo Dõi shop để ko bỏ lỡ cơ hội nhận mã giảm giá và mua các sản phẩm cực TREND nhé",
+      "img": "https://i-shop.vnecdn.net/resize/560/560/images/2019/04/09/5cac0ccf75e61-giay-da-bong-adidas-tango-18.4-tf-db2479-01.jpg",
+      "idCata": 2
+    }
+  ],
+  "cart-items": [
+    {
+      "id": 1,
+      "name": "Giày 1",
+      "price": 200000,
+      "img": "https://giaygiare.vn/upload/sanpham/large/adidas-prophere-trang-nam-nu.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Giày 2",
+      "price": 2000000,
+      "img": "https://giaygiare.vn/upload/sanpham/large/adidas-prophere-trang-nam-nu.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "ten": "lan",
+      "sdt": "012324",
+      "diachi": "dsfgg",
+      "id": 1
+    },
+    {
+      "ten": "lannnn",
+      "sdt": "012324555",
+      "diachi": "dfgh",
+      "id": 2
+    },
+    {
+      "ten": "lannnnne",
+      "sdt": "012324gfgf",
+      "diachi": "dsfgg",
+      "id": 3
+    },
+    {
+      "ten": "lan",
+      "sdt": "012324898",
+      "diachi": "hochiminh",
+      "id": 4
+    },
+    {
+      "ten": "lannnn",
+      "sdt": "012324gfgf",
+      "diachi": "dsfgg",
+      "id": 5
+    },
+    {
+      "ten": "",
+      "sdt": "",
+      "diachi": "",
+      "id": 6
+    },
+    {
+      "ten": "lannnnne",
+      "sdt": "012324",
+      "diachi": "hochiminh",
+      "id": 7
+    },
+    {
+      "ten": "lannnnne",
+      "sdt": "012324gfgf",
+      "diachi": "hochiminh",
+      "id": 8
+    },
+    {
+      "ten": "lannnn",
+      "sdt": "012324gfgf",
+      "diachi": "dsfgg",
+      "id": 9
+    },
+    {
+      "ten": "lan",
+      "sdt": "0854686949",
+      "diachi": "hochiminh",
+      "id": 10
+    },
+    {
+      "ten": "lannnn",
+      "sdt": "012324",
+      "diachi": "hochiminh",
+      "id": 11
+    },
+    {
+      "ten": "lannnn",
+      "sdt": "0854686949",
+      "diachi": "hochiminh",
+      "id": 12
+    },
+    {
+      "ten": "lannnnne",
+      "sdt": "0854686949",
+      "diachi": "hochiminh",
+      "id": 13
+    },
+    {
+      "ten": "lan",
+      "sdt": "0854686949",
+      "diachi": "hochiminh",
+      "id": 14
+    }
+  ],
+  "order_details": [
+    {
+      "order_id": 1,
+      "product_id": 1,
+      "quantity": 4,
+      "unit_price": 200000,
+      "id": 1
+    },
+    {
+      "order_id": 2,
+      "product_id": 1,
+      "quantity": 7,
+      "unit_price": 200000,
+      "id": 2
+    },
+    {
+      "order_id": 3,
+      "product_id": 18,
+      "quantity": 6,
+      "unit_price": 4200000,
+      "id": 3
+    },
+    {
+      "order_id": 4,
+      "product_id": 2,
+      "quantity": 2,
+      "unit_price": 245000,
+      "id": 4
+    },
+    {
+      "order_id": 5,
+      "product_id": 3,
+      "quantity": 1,
+      "unit_price": 439000,
+      "id": 5
+    },
+    {
+      "order_id": 5,
+      "product_id": 1,
+      "quantity": 1,
+      "unit_price": 345000,
+      "id": 6
+    },
+    {
+      "order_id": 6,
+      "product_id": 2,
+      "quantity": 2,
+      "unit_price": 245000,
+      "id": 7
+    },
+    {
+      "order_id": 6,
+      "product_id": 3,
+      "quantity": 1,
+      "unit_price": 439000,
+      "id": 8
+    },
+    {
+      "order_id": 7,
+      "product_id": 1,
+      "quantity": 2,
+      "unit_price": 345000,
+      "id": 9
+    },
+    {
+      "order_id": 7,
+      "product_id": 2,
+      "quantity": 1,
+      "unit_price": 245000,
+      "id": 10
+    },
+    {
+      "order_id": 8,
+      "product_id": 1,
+      "quantity": 1,
+      "unit_price": 345000,
+      "id": 11
+    },
+    {
+      "order_id": 8,
+      "product_id": 3,
+      "quantity": 1,
+      "unit_price": 439000,
+      "id": 12
+    },
+    {
+      "order_id": 8,
+      "product_id": 18,
+      "quantity": 1,
+      "unit_price": 4200000,
+      "id": 13
+    },
+    {
+      "order_id": 9,
+      "product_id": 6,
+      "quantity": 1,
+      "unit_price": 999000,
+      "id": 14
+    },
+    {
+      "order_id": 10,
+      "product_id": 7,
+      "quantity": 1,
+      "unit_price": 200000,
+      "id": 15
+    },
+    {
+      "order_id": 11,
+      "product_id": 9,
+      "quantity": 1,
+      "unit_price": 223000,
+      "id": 16
+    },
+    {
+      "order_id": 12,
+      "product_id": 6,
+      "quantity": 1,
+      "unit_price": 999000,
+      "id": 17
+    },
+    {
+      "order_id": 12,
+      "product_id": 4,
+      "quantity": 1,
+      "unit_price": 600000,
+      "id": 18
+    },
+    {
+      "order_id": 13,
+      "product_id": 11,
+      "quantity": 1,
+      "unit_price": 367000,
+      "id": 19
+    },
+    {
+      "order_id": 13,
+      "product_id": 12,
+      "quantity": 1,
+      "unit_price": 400000,
+      "id": 20
+    },
+    {
+      "order_id": 14,
+      "product_id": 2,
+      "quantity": 1,
+      "unit_price": 245000,
+      "id": 21
+    },
+    {
+      "order_id": 14,
+      "product_id": 3,
+      "quantity": 1,
+      "unit_price": 439000,
+      "id": 22
+    },
+    {
+      "order_id": 14,
+      "product_id": 4,
+      "quantity": 1,
+      "unit_price": 600000,
+      "id": 23
+    }
+  ]
+}

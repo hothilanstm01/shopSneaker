@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>L-Shop </title>
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- bootstrap link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" >
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- link icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!-- header -->
+  <section>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up"></i></button>
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+      <nav>
+        <div class="container">
+          <div class="head">
+            <div class="call"><span style="margin-right: 4px;"><i class="fa fa-phone"></i></span> Hotline:0854686949</div>
+            <div class="join">
+              <a href="cart.html"><span style="margin-right: 8px;" class="glyphicon glyphicon-shopping-cart"></span>Giỏ hàng</a>
+              <a href="login.html"><span style="margin-right: 8px;" class="glyphicon glyphicon-log-in"></span>Đăng nhập</a>
+              <a href="dangky.html"><span style="margin-right: 4px;"><i class="fa fa-key"></i></span> Đăng ký</a>            
+            </div>
+           
+            
+          </div>
+          <!-- end head -->
+          <div class="banner">
+            <div class="logo-nav">
+              <a href="index.html"><img src="images/logo.png" alt=""></a>
+            </div>
+            <div class="search">
+              <form>
+                <input type="text" name="search" placeholder="Tìm kiếm sản phẩm..." />
+                <button  type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+              </form>
+            </div>
+            <div class="cart">
+              <a href="cart.html">
+                <img src="images/c-removebg-preview.png" alt="">
+                <!-- <span style="margin-right: 6px;">0 sp - 0đ</span> -->
+                <!-- <i class="fa fa-arrow-right"></i> -->
+              </a>
+            </div>
+          </div> 
+          <!-- end banner -->
+          
+        </div>
+      </nav>
+    
+  </section>
+  <!-- End -->
+
+  <section>
+    <div class="container">
+      <div class="tem-menu">
+        <div class="tem-danhmuc hov">         
+          <div class="menu-cate menu-quick-select">
+            <div class="menu-cate-title">
+              <span class="dmsp">
+                <i class="fa fa-th-list"></i>
+                <a href="#">DANH MỤC SẢN PHẨM</a>
+                <i class="fa fa-chevron-circle-down"></i>
+              </span>
+            </div>
+            <ul class="menu-content hove" id="target">
+              <!-- <li>
+                <a href="#">
+                  GIÀY NAM               
+                </a>               
+              </li>
+              <li>
+                <a href="#">
+                  GIÀY NỮ             
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  GIÀY TRẺ EM               
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  GIÀY THỂ THAO                
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  GIÀY CHÍNH HÃNG               
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  GIÀY MỚI             
+                </a>
+              </li> -->
+              
+            </ul>
+          </div>
+<!-- danhmuc -->
+          
+
+        </div>
+        
+        <div class="tem-list">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">TRANG CHỦ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gioithieu.html">GIỚI THIỆU</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sanpham.html">SẢN PHẨM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tintuc.html">TIN TỨC</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lienhe.html">LIÊN HỆ</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End -->
+  <section>
+    <div class="container">
+        <div class="tinmoi">
+            <ul class="list-group mt-4 bg-light">
+            <li style="background-color: #01c4c4;font-weight: bold;" class="list-group-item active bo" aria-current="true">CHÍNH SÁCH BÁN HÀNG</li>
+            <li class="bh bo">
+                <span style="color: #01c4c4; font-weight: bold; margin-right: 5px;">1. </span><span> Giao hàng TOÀN QUỐC</span>
+            </li>
+            <li class="bh bo">
+                <span style="color: #01c4c4; font-weight: bold; margin-right: 5px;">2. </span><span> Thanh toán khi nhận hàng</span>
+            </li>
+            <li class="bh bo">
+                <span style="color: #01c4c4; font-weight: bold; margin-right: 5px;">3. </span><span> Đổi trả trong 15 ngày</span>
+            </li>
+            <li class="bh bo bos">
+                <span style="color: #01c4c4; font-weight: bold; margin-right: 5px;">4. </span><span> Chất lượng đảm bảo</span>
+            </li>           
+            </ul>
+
+            <ul class="list-group mt-4">
+                <li style="background-color: #01c4c4;font-weight: bold;" class="list-group-item active bo" aria-current="true">HƯỚNG DẪN MUA HÀNG</li>
+                <li class="bh bo">
+                    <span style="color:black; font-weight: bold; margin-right: 5px;">1. </span><span> Gọi điện thoại <span style="color: red;">0954686949</span> để mua hàng</span>
+                </li>
+                <li class="bh bo">
+                    <span style="color: black; font-weight: bold; margin-right: 5px;">2. </span><span>Mua hàn tại: <span style="color: red;">400 Nguyễn Hữu Cảnh Phường 10, Tp. Vũng Tàu</span></span>
+                </li>
+                <li class="bh bo bos">
+                    <span style="color: black; font-weight: bold; margin-right: 5px;">3. </span><span> Đổi trả trong 15 ngày</span>
+                </li>
+                         
+                </ul>
+        </div>
+        <div class="slide-show mt-4">
+            <!-- <div class="anhchitiet">
+                <img src="images/anh1.jpg" alt="">
+            </div>
+            <div class="thongtinchitiet">
+                <h4>SẢN PHẨM 1</h4>
+                <div class="giasp">
+                    <span style="color: red;font-weight: bold;font-size:20pt;">700.000đ</span>
+                    <span style="text-decoration: line-through;color: #999;font-size:18pt;font-weight: bold">900.000đ</span>
+                </div>
+                <p class="mt-3">Mô tả ngắn gọn gàng sạch sẽ hợp vệ sinh.Nhà mát bát sạch ngon cơm mà heheh</p>
+                <div class="themgiohang">
+                    <button style="background-color: #01c4c4;"><a style="color:white;padding: 15px 10px;line-height: 40px;" href=""><i style="margin-right: 2px;" class="fa fa-shopping-cart"></i>THÊM GIỎ HÀNG</a></button>
+                    <button style="background-color: red;"><a style="color:white;padding: 15px 10px;line-height: 40px;" href=""><i style="margin-right: 2px;" class="fa fa-check"></i>MUA NGAY</a></button>
+
+                </div>
+            </div>
+            <div class="motasp">
+                <div class="motasps"><p style="padding: 0px 10px;color: #eee;font-size:13pt;font-weight: bold;">MÔ TẢ</p></div>
+                <div class="chitietmota">
+                    <p style="padding:15px;border: 1px solid #eee;">
+                        Mùa thu mang giấc mơ quay về
+
+                        Vẫn nguyên vẹn như hôm nào
+                        
+                        Lá bay theo gió xôn xao chốn xưa anh chờ
+                        
+                        Đoạn đường ngày nào hai ta từng đón đưa
+                        
+                        Còn vấn vương không phai mờ
+                        
+                        Dấu yêu theo trong vần thơ...
+                        
+                        Chúng ta... là áng mây trên trời vội vàng ngang qua
+                        
+                        Chúng ta... chẳng thể nâng niu những câu thề
+                        
+                        Cứ như vậy thôi, không một lời lặng lẽ chia xa
+                        
+                        Chiều mưa bên hiên vắng buồn
+                        
+                        Còn ai thương ai mong ai?
+                        
+                        Điều anh luôn giữ kín trong tim
+                        
+                        Thương em đôi mắt ước nhòa
+                        
+                        Điều anh luôn giữ kín trong tim này
+                        
+                        Thương em ngồi đó khóc òa
+                        
+                        Điều anh luôn giữ kín trong tim này
+                        
+                        Ngày mai nắng gió sương ngâm
+                        
+                        Có ai thương, lắng lo cho em?
+                        
+                        Điều anh luôn giữ kín trong tim
+                        
+                        Thương em anh mới xin là
+                        
+                        Điều anh luôn giữ kín trong tim này
+                        
+                        Thương em thì thương thôi mà
+                        
+                        Điều anh luôn giữ kín trong tim
+                        
+                        Ngày mai nắng gió sương ngâm
+                        
+                        Điều anh luôn giữ kín trong tim
+                        
+                        Dù cho nắng tới, xuân thanh
+                        
+                        Anh nguyện ghi mãi trong tim
+                        
+                        (Có anh nơi đó không
+                        
+                        Có anh nơi đó không?)
+                    </p>
+                </div>
+            </div>
+        </div> -->
+        
+      <!-- end slideshow -->
+    </div>
+  </section>
+  
+  <section>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light mt-3">
+        <div class="container-md">
+         <h4 style="padding: 0px 10px;">ĐỐI TÁC</h4>
+        </div>
+      </nav>
+      <div class="doitac">
+        <img src="images/doitac1.jpg" alt="">
+        <img src="images/doitac2.jpg" alt="">
+        <img src="images/doitac3.jpg" alt="">
+        <img src="images/doitac4.png" alt="">
+        <img src="images/doitac5.jpg" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- đối tac end -->
+  <footer>
+    <div class="container">
+      <div class="thongtin mt-3">
+        <div class="gioithieu">
+          <p style="font-size:15pt;">GIỚI THIỆU</p>
+          <hr>
+          <ul>
+            <li><a href="">Về chúng tôi</a></li>
+            <li><a href="">Tổng quan về công ty</a></li>
+            <li><a href="">Chương trình khuyến mãi</a></li>
+            <li><a href="">Cẩm nang mua sắm</a></li>
+          </ul>
+        </div>
+        <div class="gioithieu">
+          <p style="font-size:15pt;">LIÊN HỆ - HỢP TÁC</p>
+          <hr>
+          <ul>
+            <li><a href="">Dành cho doanh nghiệp</a></li>
+            <li><a href="">Liên hệ</a></li>
+            <li><a href="">Chương trình khuyến mãi</a></li>
+            <li><a href="">Tuyển dụng</a></li>
+          </ul>
+        </div>
+        <div class="gioithieu">
+          <p style="font-size:15pt;">THÔNG TIN CÔNG TY</p>
+          <hr>
+          <p style="font-weight: bold;font-size: 12pt;">
+            Nội Thất Vũng Tàu            
+          </p>
+          <div style="margin-bottom: 10px;" class="dc">
+            <span style="margin-right: 5px;"><i class="fa fa-map-marker"></i></span> <span>400 Nguyễn Hữu Cảnh Phường 10, Tp. Vũng Tàu</span>
+          </div>
+          <div style="margin-bottom: 10px;" class="dc">
+            <span style="margin-right: 5px;"><i class="fa fa-envelope"></i></span><span>noithatvungtau9999@gmail.com</span>
+          </div>
+          <div class="dc">
+            <span style="margin-right: 5px;"><i class="fa fa-phone"></i></span><span> 0922.335.345 or 0961 260 832</span>
+          </div>
+        </div>
+        <div class="gioithieu">
+          <p style="font-size:15pt;">FACEBOOK</p>
+          <hr>
+          <div class="f">
+            <a href=""><i class="fa fa-facebook-f"></i></a>
+          </div>
+          <div class="f">
+            <a href=""><i class="fa fa-google-plus"></i></a>
+          </div>
+          <div class="f">
+            <a href=""><i class="fa fa-youtube"></i></a>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/detail.js"></script>
+  
+</body>
+</html>
